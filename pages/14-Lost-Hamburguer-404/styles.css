@@ -81,6 +81,23 @@
   stroke-dashoffset: 300;
   animation: dash 4s alternate infinite;
 }
+.button{
+  background-color: #262626;
+  color: #e8ebed;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+  border: 1px solid #e8ebed;
+  padding: 10px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-top: 35vh;
+  cursor: pointer;
+}
 
 @keyframes dash {
   0%,

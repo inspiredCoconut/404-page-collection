@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,29 @@ body {
 .copy-container {
   text-align: center;
 }
+.button {
+  position: absolute;
+  z-index: 1;
+  background-color: #000;
+  color: #ffe500;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0;
+  transition: all 0.3s;
+  border: 1px solid #ffe500;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 15vh;
+}
+
+.button:hover {
+  background-color: #ffe500;
+  color: #000;
+}
+
 p {
   color: #fff;
   font-size: 24px;
