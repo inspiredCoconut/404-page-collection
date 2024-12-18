@@ -34,4 +34,4 @@ To use one of the error pages in your project, simply copy the HTML, CSS, and an
 
 ## License
 
-This project is licensed under the MIT License.S
+This project is licensed under the MIT License.
